@@ -120,7 +120,7 @@ ax.legend(loc='center left', bbox_to_anchor=(1, 0.5), fontsize=10)
 plt.savefig('README_images/Time_series_truncated.png')
 plt.show()
 
-# Figure 4 - LinkedIn
+# Figure 4
 
 N = 1001
 N_trunc = 801
@@ -220,7 +220,7 @@ ax.legend(loc='upper right', fontsize=10)
 plt.savefig('README_images/FT_Heat_plot.png')
 plt.show()
 
-# Figure 7 - LinkedIn
+# Figure 7
 
 ext_hann_window = sig.get_window(window='hann', Nx=1001, fftbins=False)
 
@@ -337,7 +337,7 @@ ax.legend(loc='upper right', fontsize=10)
 plt.savefig('README_images/STFT.png')
 plt.show()
 
-# Figure 11 - LinkedIn
+# Figure 11
 
 n = 512
 hann_window = sig.get_window(window='hann', Nx=n + 1, fftbins=False)
@@ -503,7 +503,7 @@ plt.yticks((-2, -1, 0, 1, 2), ('-2', '-1', '0', '1', '2'), fontsize=10)
 plt.savefig('README_images/Morlet_wavelet_demonstration.png')
 plt.show()
 
-# Figure 14 - LinkedIn
+# Figure 14
 
 mor_window = 2 * morlet_window(512, (6.5 * (2 * np.pi) / 10))
 
