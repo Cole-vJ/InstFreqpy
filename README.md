@@ -31,7 +31,11 @@ The heatmap below is another way of plotting the above figure. It is not necessa
 
 ## Ghost Frequencies
 
+Ghost frequency or ghost frequencies are informal terms used in the time-frequency analysis communities to describe and explain frequencies present in the Fourier spectrum that are not truly present in the temporal domain. These ghost frequencies are as a result of performing the Fourier transform (in the absence of a windowing technique) on time series that do not consist of an integer number of full wavelengths of underlying structures. The proliferation of Fourier bases are as a result of the optimisation algorithm trying to replicate the incomplete wavelength structures.
+
 ![](./README_images/Time_series_truncated.png)
+
+By truncating the time series as demonstrated above, one can resolve this issue as demonstrated below. This is, however, an ill-conceived 'solution' to the problem as potentially valuable temporal and frequency content of the time series would be discarded and lost in the analysis. There are a number of better-suited solutions which do not explicitly removed part of the time series. One such technique, called Tapering, is discussed below. 
 
 ![](./README_images/FT_truncated.png)
 
