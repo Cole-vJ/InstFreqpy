@@ -41,6 +41,8 @@ By truncating the time series as demonstrated above, one can resolve this issue 
 
 ## Fourier Transform with Tapering
 
+Many different families of windows are used in the literature. One of the most common windows used is the Hann window - often mistakenly referred to as a Hanning window which is a misnomer as a result of the other commonly used window: Hamming window. The Hann window and the Hamming window are both relatively simple members of a class of window functions called Cosine-Sum Windows. They are the simplest member of this class of functions and both be described using the following function: $ \omega(f) = a_0 + (1 - a_0)\text{cos}\bigg(\dfrac{\pi{f}}{f_N}\bigg), $ with $ f \in \bigg[-\dfrac{f_N}{2}, \dfrac{f_N}{2}\bigg] $.  When using the Hamming window one has $ a_0 = \dfrac{25}{46} $ and for the Hann window, one has $ a_0 = \dfrac{1}{2} $, from which it follows that $ \omega_{Hann}(f) = \dfrac{1}{2} + \dfrac{1}{2}\text{cos}\bigg(\dfrac{\pi{f}}{f_N}\bigg) $ and $ \omega_{Hann}(f) = 0 $ when $ f \in \bigg\{-\dfrac{f_N}{2}, \dfrac{f_N}{2}\bigg\} $. In the example in the figure below one has $ \omega(f) = 2\text{cos}\Bigg(\dfrac{\pi\big({t} - \frac{5}{2}\big)}{\frac{5}{2}}\Bigg) + 1 $ with $ t \in \bigg[0, 5\bigg]. $ 
+
 ![](./README_images/FT_demonstration.png)
 
 ![](./README_images/FT_tapered.png)
