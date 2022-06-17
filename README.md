@@ -45,6 +45,8 @@ Many different families of windows are used in the literature. One of the most c
 
 ![](./README_images/FT_demonstration.png)
 
+In the figure below one can observe that by performing the Fourier transform on the tapered time series, the frequency content is far more clear when compared to the Fourier transform of the original time series. The tapered time series also displays far fewer ghost frequencies as a result of the tapering. This tapering does, however, lessen the amplitude of the frequency content, but this can be partially resolved by comparing the relative intensities of the significant frequencies within the frequency content.
+
 ![](./README_images/FT_tapered.png)
 
 ![](./README_images/FT_Heat_plot_tapered.png)
