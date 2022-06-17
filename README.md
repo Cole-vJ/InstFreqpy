@@ -49,6 +49,8 @@ In the figure below one can observe that by performing the Fourier transform on 
 
 ![](./README_images/FT_tapered.png)
 
+The below figure is another way of comparing the Fourier spectrum plots of the tapered time series and the untapered time series. There is no temporal content in either figure, but this figure will make further sense when it is compared against the Fourier spectrum plots in the Short-Time Fourier Transform and Morlet Wavelet Transform sections to follow.
+
 ![](./README_images/FT_Heat_plot_tapered.png)
 
 ### Short-Time Fourier Transform
