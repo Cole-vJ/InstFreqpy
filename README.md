@@ -55,7 +55,11 @@ The below figure is another way of comparing the Fourier spectrum plots of the t
 
 ### Short-Time Fourier Transform
 
+The short-time Fourier transform is a natural extension of the tapered Fourier transform - it is able to detect a varying frequency and amplitude and it was one of the first steps towards a measure of an instantaneous frequency. This particular application of the short-time Fourier transform does not demonstrate the ability of the short-time Fourier transform to measure a varying frequency. The image below is used in conjunction with the image below that to demonstrate how the short-time Fourier transform works.
+
 ![](./README_images/STFT.png)
+
+The image above corresponds to the plot intervals in the image below. A tapered Fourier transform is performed on the first measure interval - this estimates the instantaneous frequency at the centre of the interval which corresponds to the maximum of the Hann window. Once the Fourier transform has been performed, it is plotted in a forward-difference fashion with the frequency over an interval plot corresponding to the instantaneous frequency on the left of the interval - this is convention and not essential.
 
 ![](./README_images/STFT_demonstration.png)
 
