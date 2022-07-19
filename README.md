@@ -67,11 +67,9 @@ The image above corresponds to the plot intervals in the image below. A tapered 
 
 ### Morlet Wavelet Transform
 
-
+In this approach, the time domain is also partitioned but instead of full sinusoidal functions, Morlet Wavelet Transform (MWT)  and other related wavelet techniques use wavelet packets to investigate the frequency content of a time series - this also adds a layer of complexity in that the wavelet packets are adjustable  which allows the technique to increase the frequency resolution at lower frequencies.
 
 ![](./README_images/Morlet_wavelet_demonstration.png)
-
-
 
 ![](./README_images/Morlet_wavelet_fixed.png)
 
