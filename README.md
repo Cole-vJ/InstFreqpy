@@ -71,6 +71,8 @@ In this approach, the time domain is also partitioned but instead of full sinuso
 
 ![](./README_images/Morlet_wavelet_demonstration.png)
 
+Fixed wavelet packets can be viewed in the figure below. These packets have fixed 'widths' which are independent of the frequency of the wavelet. 'Width' is used as the Gaussian functions are used which technically have infinite domains, but the functions taper off exponentially and is effective as tapering function in this instance. With fixed windows, the higher frequency structures are easier to discern using fixed windows as more wavelengths are within the significant Gaussian tapered window. 
+
 ![](./README_images/Morlet_wavelet_fixed.png)
 
 
